@@ -26,6 +26,7 @@ class App extends Component{
     const newItem={
     // assigns a key to the value using random
     id: 1 + Math.random(),
+    // assigns value as the first element?
     value: this.state.newItem.slice()
     };
 
